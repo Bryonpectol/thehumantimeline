@@ -3,4 +3,13 @@ const events = [{"year":"4000 B.C.","events":"- The Sumerian civilization emerge
                 {"year":"2500 B.C.","events":"- The Great Pyramid of Giza is built in Egypt."}];
 
 
+let container = document.getElementById("timelinemain");
+
+events.forEach({
+let testp = document.createElement("p");
+
+testp.textContext = events[0];
+
+container.appendChild(testp);
+});
 
