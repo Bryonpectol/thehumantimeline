@@ -1,4 +1,9 @@
-const events = [{"year":"490 B.C.","image":"/images/490bc.jpg","events":"The Battle of Marathon takes place, where the Athenians defeat the Persian invasion."},
+const events = [
+  {"year":"","image":"","events":""},
+  {"year":"","image":"","events":""},
+  {"year":"","image":"","events":""},
+  {"year":"336 B.C.","image":"","events":"Alexander the Great becomes the ruler of Macedon."},
+  {"year":"490 B.C.","image":"/images/490bc.jpg","events":"The Battle of Marathon takes place, where the Athenians defeat the Persian invasion."},
   {"year":"509 B.C.","image":"","events":"The Roman Republic is established after the overthrow of the Roman monarchy."},
   {"year":"546 B.C.","image":"","events":"Cyrus the Great establishes the Persian Empire after overthrowing the Median Empire."},
   {"year":"586 B.C.","image":"","events":"The Babylonians, led by Nebuchadnezzar II, conquer Jerusalem and exile the Israelites."},
