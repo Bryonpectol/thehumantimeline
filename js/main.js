@@ -1,7 +1,10 @@
 const events = [
-  {"year":"","image":"","events":""},
-  {"year":"","image":"","events":""},
-  {"year":"","image":"","events":""},
+  {"year":"1","image":"/images/1.jpg","events":"The year traditionally believed to be the birth of Jesus Christ."},
+  {"year":"27 B.C.","image":"","events":"The Roman Senate grants Octavian (Augustus) the title of Augustus, marking the beginning of the Roman Empire."},
+  {"year":"44 B.C.","image":"","events":"Julius Caesar is assassinated, leading to the rise of Augustus Caesar and the Roman Empire."},
+  {"year":"146 B.C.","image":"","events":"The Roman Republic destroys Carthage, ending the Third Punic War."},
+  {"year":"221 B.C.","image":"","events":"Qin Shi Huang becomes the first emperor of unified China, marking the start of the Qin Dynasty."},
+  {"year":"323 B.C.","image":"","events":"Alexander the Great dies, and his empire is divided among his generals, leading to the Hellenistic period."},
   {"year":"336 B.C.","image":"","events":"Alexander the Great becomes the ruler of Macedon."},
   {"year":"490 B.C.","image":"/images/490bc.jpg","events":"The Battle of Marathon takes place, where the Athenians defeat the Persian invasion."},
   {"year":"509 B.C.","image":"","events":"The Roman Republic is established after the overthrow of the Roman monarchy."},
