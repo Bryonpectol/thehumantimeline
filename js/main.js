@@ -1,4 +1,10 @@
 const events = [
+  {"year":"49-51","image":"","events":"The Apostle Paul undertakes his missionary journeys, spreading Christianity throughout the eastern Mediterranean."},
+  {"year":"43","image":"","events":"The Roman conquest of Britain begins under Emperor Claudius."},
+  {"year":"37","image":"","events":"Tiberius dies, and Caligula becomes the third Roman emperor."},
+  {"year":"30","image":"","events":"According to Christian tradition, Jesus is crucified and resurrected."},
+  {"year":"14","image":"","events":"Augustus, the first Roman emperor, dies, and Tiberius succeeds him."},
+  {"year":"9","image":"","events":"Germanic tribes, led by Arminius, defeat three Roman legions in the Battle of the Teutoburg Forest."},
   {"year":"1","image":"/images/1.jpg","events":"The year traditionally believed to be the birth of Jesus Christ."},
   {"year":"27 B.C.","image":"","events":"The Roman Senate grants Octavian (Augustus) the title of Augustus, marking the beginning of the Roman Empire."},
   {"year":"44 B.C.","image":"","events":"Julius Caesar is assassinated, leading to the rise of Augustus Caesar and the Roman Empire."},
