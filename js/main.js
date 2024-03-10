@@ -9,7 +9,7 @@ const events = [{"year":"490 B.C.","events":"The Battle of Marathon takes place,
   {"year":"3100 B.C.","events":"The first Egyptian dynasty is established by Narmer (Menes), uniting Upper and Lower Egypt."},
   {"year":"4000 B.C.","events":"The Sumerian civilization emerges in Mesopotamia (modern-day Iraq)."},
   {"year":"10,000 B.C.","events":"Humanity was still in the prehistoric era, known as the Stone Age."},
-                ];
+  ];
 
 
 let container = document.getElementById("timelinemain");
@@ -21,6 +21,7 @@ events.forEach((Events) => {
     let eventDiv = document.createElement("div");
 
     eventDiv.className = "eventdiv";
+    Event.className = "eventtext";
 
     Year.textContent = "Year: " + Events.year;
     Event.textContent = "" + Events.events;
