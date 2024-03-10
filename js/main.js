@@ -19,13 +19,16 @@ events.forEach((Events) => {
     let Year = document.createElement("h3");
     let Event = document.createElement("p");
     let eventDiv = document.createElement("div");
+    let Image = document.createElement("img");
 
     eventDiv.className = "eventdiv";
     Event.className = "eventtext";
     Year.className = "yeartext";
+    Image.className = "image";
 
     Year.textContent = "Year: " + Events.year;
     Event.textContent = "" + Events.events;
+    Image.setAttribute("src", Events.image);
 
     container.appendChild(eventDiv);
     eventDiv.appendChild(Year);
