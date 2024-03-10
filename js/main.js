@@ -33,5 +33,6 @@ events.forEach((Events) => {
     container.appendChild(eventDiv);
     eventDiv.appendChild(Year);
     eventDiv.appendChild(Event);
+    eventDiv.appendChild(Image);
 
 });
