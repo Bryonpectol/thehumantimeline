@@ -5,11 +5,19 @@ const events = [{"year":"4000 B.C.","events":"- The Sumerian civilization emerge
 
 let container = document.getElementById("timelinemain");
 
-events.forEach({
-let testp = document.createElement("p");
+events.forEach((Events) => {
 
-testp.textContext = events[0];
+    let Year = document.createElement("h3");
+    let Event = document.createElement("p");
+    let eventDiv = document.createElement("div");
 
-container.appendChild(testp);
+    eventDiv.className = "eventdiv";
+
+    Year.textContent = "Year: " + Events.year;
+    Event.textContent = "" + Events.events;
+
+    container.appendChild(eventDiv);
+    eventDiv.appendChild(Year);
+    eventDiv.appendChild(Event);
+
 });
-
