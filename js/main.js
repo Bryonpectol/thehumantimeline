@@ -8,7 +8,7 @@ const events = [{"year":"490 B.C.","image":"","events":"The Battle of Marathon t
   {"year":"2500 B.C.","image":"","events":"The Great Pyramid of Giza is built in Egypt."},
   {"year":"3100 B.C.","image":"","events":"The first Egyptian dynasty is established by Narmer (Menes), uniting Upper and Lower Egypt."},
   {"year":"4000 B.C.","image":"","events":"The Sumerian civilization emerges in Mesopotamia (modern-day Iraq)."},
-  {"year":"10,000 B.C.","image":"","events":"Humanity was still in the prehistoric era, known as the Stone Age."},
+  {"year":"10,000 B.C.","image":"/images/10000bc.jpg","events":"Humanity was still in the prehistoric era, known as the Stone Age."},
   ];
 
 
