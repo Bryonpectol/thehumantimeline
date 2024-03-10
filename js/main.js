@@ -22,6 +22,7 @@ events.forEach((Events) => {
 
     eventDiv.className = "eventdiv";
     Event.className = "eventtext";
+    Year.className = "yeartext";
 
     Year.textContent = "Year: " + Events.year;
     Event.textContent = "" + Events.events;
