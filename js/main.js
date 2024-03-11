@@ -59,7 +59,8 @@ function submit(task) {
 
   searchYear.textContent = "Searched for: " + searchInput.value;
 
+  let filteredItems = events.filter(item => `${item.year} ${item.events}`.includes(searchInput.value));
+
   Form.appendChild(searchYear);
-  alert(this);
 };
 
