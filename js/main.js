@@ -66,6 +66,6 @@ function submit() {
 
   Form.appendChild(searchYear);
   Form.appendChild(searchYearReal);
-  alert(filteredItems);
+  alert(events.filter((item) => item.year.);
 };
 
