@@ -59,7 +59,7 @@ function submit(task) {
 
   searchYear.textContent = "Searched for: " + searchInput.value;
 
-  let searchYearReal = events.find(task.year = searchInput.value);
+  let searchYearReal = events.findIndexOf(task.year === '43');
 
   Form.appendChild(searchYear);
   alert(searchYearReal);
