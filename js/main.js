@@ -40,13 +40,7 @@ let Select = document.getElementById("select");
 let selectValue = Select.value;
 let selextText = Select.options[Select.selectedIndex].text;
 
-if(selectValue == 2) {
-  events.reversed();
-};
-
 if(selectValue == 1) {
-  
-};
 
 let container = document.getElementById("timelinemain");
 
@@ -74,6 +68,44 @@ events.forEach((Events) => {
     eventDiv.appendChild(Image);
 
 });
+
+};
+
+
+if(selectValue == 2) {
+
+events.reversed();
+
+let container = document.getElementById("timelinemain");
+
+
+
+events.forEach((Events) => {
+
+    let Year = document.createElement("h3");
+    let Event = document.createElement("p");
+    let eventDiv = document.createElement("div");
+    let Image = document.createElement("img");
+
+    eventDiv.className = "eventdiv";
+    Event.className = "eventtext";
+    Year.className = "yeartext";
+    Image.className = "image";
+
+    Year.textContent = "Year: " + Events.year + " " + Events.time;
+    Event.textContent = "" + Events.events;
+    Image.setAttribute("src", Events.image);
+
+    container.appendChild(eventDiv);
+    eventDiv.appendChild(Year);
+    eventDiv.appendChild(Event);
+    eventDiv.appendChild(Image);
+
+});
+
+};
+
+
 
 let searchYearReal;
 
