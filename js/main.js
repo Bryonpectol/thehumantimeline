@@ -1,4 +1,11 @@
 const events = [
+  {"year":"100","time":"A.D.","image":"","events":"The Han Dynasty continues to rule in China under Emperor He. \n The Roman Empire reaches its greatest territorial extent under Emperor Trajan."},
+  {"year":"98","time":"A.D.","image":"","events":"Emperor Nerva dies, and Trajan becomes the Roman emperor."},
+  {"year":"96","time":"A.D.","image":"","events":"Emperor Domitian is assassinated, and Nerva becomes the Roman emperor, beginning the period known as the Nerva-Antonine dynasty."},
+  {"year":"80","time":"A.D.","image":"","events":"Emperor Vespasian dies, and his son Titus becomes the new Roman emperor."},
+  {"year":"79","time":"A.D.","image":"","events":"The eruption of Mount Vesuvius leads to the destruction of Pompeii and Herculaneum."},
+  {"year":"66-73","time":"A.D.","image":"","events":"The First Jewish-Roman War takes place, resulting in the destruction of the Second Temple in Jerusalem."},
+  {"year":"64","time":"A.D.","image":"","events":"The Great Fire of Rome occurs, leading to accusations against Christians and the persecution of them by Emperor Nero."},
   {"year":"49-51","time":"A.D.","image":"","events":"The Apostle Paul undertakes his missionary journeys, spreading Christianity throughout the eastern Mediterranean."},
   {"year":"43","time":"A.D.","image":"","events":"The Roman conquest of Britain begins under Emperor Claudius."},
   {"year":"37","time":"A.D.","image":"","events":"Tiberius dies, and Caligula becomes the third Roman emperor."},
