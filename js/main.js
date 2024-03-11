@@ -56,5 +56,7 @@ events.forEach((Events) => {
 
 function submit(task) {
   return task.year === searchInput.value;
-  alert(task.year);
 };
+
+let task = tasks.find(submit);
+alert(JSON.stringify(task));
