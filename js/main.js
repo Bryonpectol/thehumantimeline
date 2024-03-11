@@ -54,10 +54,10 @@ events.forEach((Events) => {
 });
 
 
-function submit() {
+function submit(Events) {
   let Form = document.getElementById("form");
 
-  let result = events.find(searchInput.value);
+  let result = events.find(Events.year);
 
   Form.appendChild(result);
   
