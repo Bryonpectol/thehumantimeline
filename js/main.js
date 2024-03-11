@@ -65,7 +65,7 @@ function submit() {
 
   let filteredItems = JSON.stringify(events.filter((item) => item.year.includes(searchInput.value)));
 
-  filteredItems.split(":");
+  filteredItems.split(":").pop());
   //let jsoned = JSON.stringify(filteredItems);
     //let filteredItems = events.filter((item) => item.year = (searchInput.value));
   searchYearReal.textContent = "" + filteredItems;
