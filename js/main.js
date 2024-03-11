@@ -60,8 +60,8 @@ function submit() {
 
   searchYear.textContent = "Searched for: " + searchInput.value;
 
-  let filteredItems = events.filter((item) => item.year.includes(searchInput.value));
-
+ // let filteredItems = events.filter((item) => item.year.includes(searchInput.value));
+    let filteredItems = events.filter((item) => item.year = (searchInput.value));
   searchYearReal.textContent = "" + filteredItems;
 
   Form.appendChild(searchYear);
