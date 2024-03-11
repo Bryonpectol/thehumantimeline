@@ -53,10 +53,12 @@ events.forEach((Events) => {
 
 });
 
-
-function submit(task) {
+function getTask(task) {
   return task.year === searchInput.value;
 };
 
-let task = tasks.find(submit);
-alert(JSON.stringify(task));
+function submit() {
+  let task = tasks.find(submit);
+  alert(JSON.stringify(task));
+};
+
