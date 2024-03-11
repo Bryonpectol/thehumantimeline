@@ -63,7 +63,7 @@ function submit() {
   let filteredItems = events.filter((item) => item.year.includes(searchInput.value));
     //let filteredItems = events.filter((item) => item.year = (searchInput.value));
   searchYearReal.textContent = "" + filteredItems;
-  let jsoned = JSON.stringify(filteredItems);
+  let jsoned = JSON.stringify(searchYearReal);
 
   Form.appendChild(searchYear);
   Form.appendChild(jsoned);
