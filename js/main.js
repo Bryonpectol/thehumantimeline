@@ -88,6 +88,8 @@ if(selectValue == 2) {
 
 events.reversed();
 
+alert(events);
+
 let container = document.getElementById("timelinemain");
 
 
