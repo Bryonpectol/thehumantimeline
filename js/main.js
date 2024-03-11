@@ -55,5 +55,10 @@ events.forEach((Events) => {
 
 
 function submit() {
+  let Form = document.getElementById("form");
+
+  let result = events.find(searchInput.value);
+
+  Form.appendChild(result);
   
 };
