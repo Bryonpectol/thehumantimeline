@@ -54,13 +54,13 @@ events.forEach((Events) => {
 
 });
 
-function submit(task) {
+function submit() {
   let searchYear = document.createElement("p");
   let searchYearReal = document.createElement("p");
 
   searchYear.textContent = "Searched for: " + searchInput.value;
 
-  let filteredItems = events.filter(item => `${item.year} ${item.events}`.includes(searchInput.value));
+  let filteredItems = events.filter((item) => item.year.includes(searchInput.value);
 
   let searchYearReal.textContent = "" + filteredItems;
 
