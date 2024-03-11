@@ -60,7 +60,7 @@ function submit() {
 
   searchYear.textContent = "Searched for: " + searchInput.value;
 
-  let filteredItems = events.filter((item) => item.year.includes(searchInput.value);
+  let filteredItems = events.filter((item) => item.year.includes(searchInput.value));
 
   let searchYearReal.textContent = "" + filteredItems;
 
