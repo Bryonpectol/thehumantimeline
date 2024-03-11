@@ -28,8 +28,22 @@ const events = [
 
 let searchInput = document.getElementById("search");
 let Form = document.getElementById("form");
+let Select = document.getElementById("select");
+
+let selectValue = Select.value;
+let selextText = Select.options[Select.selectedIndex].text;
+
+if(selectValue == 2) {
+  events.reversed();
+};
+
+if(selectValue == 1) {
+  
+};
 
 let container = document.getElementById("timelinemain");
+
+
 
 events.forEach((Events) => {
 
@@ -74,4 +88,3 @@ function submit() {
   Form.appendChild(searchYear);
   Form.appendChild(searchYearReal);
 };
-
