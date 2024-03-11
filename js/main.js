@@ -27,6 +27,7 @@ const events = [
 
 
 let searchInput = document.getElementById("search");
+let Form = document.getElementById("form");
 
 let container = document.getElementById("timelinemain");
 
@@ -53,12 +54,11 @@ events.forEach((Events) => {
 
 });
 
-function getTask(tasks) {
-  let task = tasks.find(submit);
-  
-};
-
 function submit() {
-  alert(getTasks(events));
+  let searchYear = document.createElement("p");
+
+  searchYear.textContent = "Searched for: " + searchInput.value;
+
+  Form.appendChild(searchYear);
 };
 
