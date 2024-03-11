@@ -26,7 +26,7 @@
       border-bottom-right-radius: 25px;
    }
 
-   #form {
+   #formdiv {
       display: flex;
       flex-direction: row;
    }
