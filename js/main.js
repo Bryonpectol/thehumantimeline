@@ -26,6 +26,8 @@ const events = [
   ];
 
 
+let searchInput = document.getElementById("search");
+
 let container = document.getElementById("timelinemain");
 
 events.forEach((Events) => {
@@ -50,3 +52,8 @@ events.forEach((Events) => {
     eventDiv.appendChild(Image);
 
 });
+
+
+function submit() {
+  
+};
