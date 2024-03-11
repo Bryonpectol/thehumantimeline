@@ -74,8 +74,10 @@ function submit() {
   searchYearReal = "";
   let searchYear = document.createElement("p");
   searchYearReal = document.createElement("p");
+
+  let filteredTime = JSON.stringify(events.filter((itemTime) => itemTime.time.includes(searchInput.value)));
   
-  searchYear.textContent = "Searched for: Year " + searchInput.value;
+  searchYear.textContent = "Searched for: Year " + searchInput.value + " " + filteredTime;
 
   let filteredItems = JSON.stringify(events.filter((item) => item.year.includes(searchInput.value)));
 
