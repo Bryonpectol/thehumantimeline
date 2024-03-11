@@ -54,11 +54,7 @@ events.forEach((Events) => {
 });
 
 
-function submit(Events) {
-  let Form = document.getElementById("form");
-
-  let result = events.find(Events.year);
-
-  Form.appendChild(result);
-  
+function submit(task) {
+  return task.year === searchInput.value;
+  alert(task.year);
 };
