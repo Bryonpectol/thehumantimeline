@@ -54,14 +54,14 @@ events.forEach((Events) => {
 
 });
 
-function submit() {
+function submit(task) {
   let searchYear = document.createElement("p");
 
   searchYear.textContent = "Searched for: " + searchInput.value;
 
-  let searchYearReal = events.find(searchInput.value);
+  let searchYearReal = events.find(task.year = searchInput.value);
 
   Form.appendChild(searchYear);
-  Form.appendChild(searchYearReal);
+  alert(searchYearReal);
 };
 
