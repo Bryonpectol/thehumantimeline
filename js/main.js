@@ -59,6 +59,9 @@ function submit() {
 
   searchYear.textContent = "Searched for: " + searchInput.value;
 
+  let searchYearReal = events.find(searchInput.value);
+
   Form.appendChild(searchYear);
+  Form.appendChild(searchYearReal);
 };
 
