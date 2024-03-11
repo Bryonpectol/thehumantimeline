@@ -54,11 +54,13 @@ events.forEach((Events) => {
 
 });
 
+let searchYearReal;
+
 function submit() {
-  
-  let searchYear = document.createElement("p");
-  let searchYearReal = document.createElement("p");
   searchYearReal = "";
+  let searchYear = document.createElement("p");
+  searchYearReal = document.createElement("p");
+  
   searchYear.textContent = "Searched for: " + searchInput.value;
 
   let filteredItems = JSON.stringify(events.filter((item) => item.year.includes(searchInput.value)));
