@@ -149,7 +149,7 @@ events.forEach((Events) => {
     Vert.textContent("|");
 
     container.appendChild(eventDiv);
-    container.appendChild(Vert);
+    //container.appendChild(Vert);
     eventDiv.appendChild(Year);
     eventDiv.appendChild(Event);
     eventDiv.appendChild(Image);
@@ -189,7 +189,7 @@ events.forEach((Events) => {
     Vert.textContent("|");
 
     container.appendChild(eventDiv);
-    container.appendChild(Vert);
+   // container.appendChild(Vert);
     eventDiv.appendChild(Year);
     eventDiv.appendChild(Event);
     eventDiv.appendChild(Image);
