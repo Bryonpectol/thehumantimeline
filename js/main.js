@@ -149,6 +149,7 @@ events.forEach((Events) => {
     Vert.textContent("|");
 
     container.appendChild(eventDiv);
+    container.appendChild(Vert);
     eventDiv.appendChild(Year);
     eventDiv.appendChild(Event);
     eventDiv.appendChild(Image);
@@ -188,7 +189,6 @@ events.forEach((Events) => {
     eventDiv.appendChild(Year);
     eventDiv.appendChild(Event);
     eventDiv.appendChild(Image);
-    container.appendChild(Vert);
 
 });
 
