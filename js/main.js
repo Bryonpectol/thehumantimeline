@@ -216,11 +216,10 @@ events.forEach((Events) => {
     //container.appendChild(Vert);
       eventDiv.appendChild(Year);
       eventDiv.appendChild(Event);
-      eventDiv.appendChild(Image);
-    }
-
-    if(Events.more != "") {
+      if(Events.more != "") {
       eventsDiv.appendChild(moreBtn);
+      }
+      eventDiv.appendChild(Image);
     }
     
 
