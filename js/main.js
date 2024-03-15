@@ -176,7 +176,7 @@ const events = [
   {"year":"3100","time":"B.C.","image":"","events":"The first Egyptian dynasty is established by Narmer (Menes), uniting Upper and Lower Egypt."},
   {"year":"4000","time":"B.C.","image":"","events":"The Sumerian civilization emerges in Mesopotamia (modern-day Iraq)."},
   {"year":"5000","time":"B.C.","image":"","events":"During the Neolithic period, a time characterized by the development of agriculture, animal domestication, and settled communities. While specific events from that time are not documented, archaeological evidence suggests significant advancements in human civilization, such as the transition from hunter-gatherer societies to agricultural societies in various parts of the world. This period marked the beginnings of human civilization as we know it today."},
-  {"year":"10,000","time":"B.C.","image":"/images/10000bc.jpg","events":"Humanity was still in the prehistoric era, known as the Stone Age."},
+  {"year":"10,000","time":"B.C.","image":"/images/10000bc.jpg","events":"Humanity was still in the prehistoric era, known as the Stone Age.","more":"there is more here..."},
   ];
 
 
@@ -199,6 +199,7 @@ events.forEach((Events) => {
     let Event = document.createElement("p");
     let eventDiv = document.createElement("div");
     let Image = document.createElement("img");
+    let moreBtn = document.createElement("button");
 
     eventDiv.className = "eventdiv";
     Event.className = "eventtext";
@@ -208,6 +209,7 @@ events.forEach((Events) => {
     Year.textContent = "Year: " + Events.year + " " + Events.time;
     Event.textContent = "" + Events.events;
     Image.setAttribute("src", Events.image);
+    moreBtn.textContent = "Read More";
   
     if(Events.events != "") {
     container.appendChild(eventDiv);
@@ -215,6 +217,10 @@ events.forEach((Events) => {
       eventDiv.appendChild(Year);
       eventDiv.appendChild(Event);
       eventDiv.appendChild(Image);
+    }
+
+    if(Events.more != "") {
+      eventsDiv.appendChild(moreBtn);
     }
     
 
