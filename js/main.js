@@ -209,7 +209,7 @@ events.forEach((Events) => {
     Event.textContent = "" + Events.events;
     Image.setAttribute("src", Events.image);
   
-    if(Events.year != "") {
+    if(Events.events != "") {
     container.appendChild(eventDiv);
     //container.appendChild(Vert);
       eventDiv.appendChild(Year);
