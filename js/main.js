@@ -160,7 +160,7 @@ const events = [
   {"year":"1","time":"A.D.","image":"/images/1.jpg","events":"The year traditionally believed to be the birth of Jesus Christ.","more":""},
   {"year":"27","time":"B.C.","image":"","events":"The Roman Senate grants Octavian (Augustus) the title of Augustus, marking the beginning of the Roman Empire.","more":""},
   {"year":"44","time":"B.C.","image":"","events":"Julius Caesar is assassinated, leading to the rise of Augustus Caesar and the Roman Empire.","more":""},
-  {"year":"51","time":"B.C.","image":"/images/cleopatra.jpg","events":"Cleopatra becomes Pharaoh of Egypt, ruling jointly with her father, Ptolemy XII Auletes. After her father's death, she ruled alongside her younger brother, Ptolemy XIII, and later her other brother, Ptolemy XIV, and finally with her son, Ptolemy XV, until her death in 30 BC.","more":"Cleo!"},
+  {"year":"51","time":"B.C.","image":"/images/cleopatra.jpg","events":"Cleopatra becomes Pharaoh of Egypt, ruling jointly with her father, Ptolemy XII Auletes. After her father's death, she ruled alongside her younger brother, Ptolemy XIII, and later her other brother, Ptolemy XIV, and finally with her son, Ptolemy XV, until her death in 30 BC.","more":""},
   {"year":"146","time":"B.C.","image":"","events":"The Roman Republic destroys Carthage, ending the Third Punic War.","more":""},
   {"year":"221","time":"B.C.","image":"","events":"Qin Shi Huang becomes the first emperor of unified China, marking the start of the Qin Dynasty.","more":""},
   {"year":"323","time":"B.C.","image":"","events":"Alexander the Great dies, and his empire is divided among his generals, leading to the Hellenistic period.","more":""},
@@ -175,7 +175,7 @@ const events = [
   {"year":"2500","time":"B.C.","image":"","events":"The Great Pyramid of Giza is built in Egypt.","more":""},
   {"year":"3100","time":"B.C.","image":"","events":"The first Egyptian dynasty is established by Narmer (Menes), uniting Upper and Lower Egypt.","more":""},
   {"year":"4000","time":"B.C.","image":"","events":"The Sumerian civilization emerges in Mesopotamia (modern-day Iraq).","more":""},
-  {"year":"5000","time":"B.C.","image":"","events":"During the Neolithic period, a time characterized by the development of agriculture, animal domestication, and settled communities. While specific events from that time are not documented, archaeological evidence suggests significant advancements in human civilization, such as the transition from hunter-gatherer societies to agricultural societies in various parts of the world. This period marked the beginnings of human civilization as we know it today.","more":""},
+  {"year":"5000","time":"B.C.","image":"","events":"During the Neolithic period, a time characterized by the development of agriculture, animal domestication, and settled communities. While specific events from that time are not documented, archaeological evidence suggests significant advancements in human civilization, such as the transition from hunter-gatherer societies to agricultural societies in various parts of the world. This period marked the beginnings of human civilization as we know it today.","more":"yes"},
   {"year":"10,000","time":"B.C.","image":"/images/10000bc.jpg","events":"Humanity was still in the prehistoric era, known as the Stone Age.","more":"there is more here..."},
   ];
 
