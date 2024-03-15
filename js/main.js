@@ -184,10 +184,10 @@ events.forEach((Events) => {
     Image.setAttribute("src", Events.image);
 
     container.appendChild(eventDiv);
-    container.appendChild(Vert);
     eventDiv.appendChild(Year);
     eventDiv.appendChild(Event);
     eventDiv.appendChild(Image);
+    container.appendChild(Vert);
 
 });
 
