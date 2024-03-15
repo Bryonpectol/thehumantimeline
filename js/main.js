@@ -38,7 +38,7 @@ const events = [
   {"year":"1804","time":"A.D.","image":"","events":"Napoleon Bonaparte crowns himself Emperor of the French, establishing the First French Empire."},
   {"year":"1799","time":"A.D.","image":"","events":"Napoleon Bonaparte becomes the First Consul of France, consolidating his power and eventually declaring himself Emperor."},
   {"year":"1791","time":"A.D.","image":"","events":"The Bill of Rights, the first ten amendments to the United States Constitution, is ratified, guaranteeing fundamental rights and freedoms."},
-  {"year":"1789","time":"A.D.","image":"","events":"The French Revolution commences with the storming of the Bastille, marking a period of radical political and social change in France."},
+  {"year":"1789","time":"A.D.","image":"/images/french-rev.jpg","events":"The French Revolution commences with the storming of the Bastille, marking a period of radical political and social change in France."},
   {"year":"1776","time":"A.D.","image":"","events":"The American Revolution begins with the signing of the Declaration of Independence, leading to the war for American independence from Britain."},
   {"year":"1770","time":"A.D.","image":"","events":"The Boston Massacre occurs, where British soldiers kill five colonists, fueling tensions between the American colonies and Britain."},
   {"year":"1760-1840","time":"A.D.","image":"","events":"The Industrial Revolution"},
