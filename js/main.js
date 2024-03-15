@@ -1,5 +1,5 @@
 const events = [
-  {"year":"","time":"A.D.","image":"","events":""},
+  {"year":"2020","time":"A.D.","image":"","events":""},
   {"year":"","time":"A.D.","image":"","events":""},
   {"year":"","time":"A.D.","image":"","events":""},
   {"year":"","time":"A.D.","image":"","events":""},
