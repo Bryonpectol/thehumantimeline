@@ -205,6 +205,7 @@ events.forEach((Events) => {
     Event.className = "eventtext";
     Year.className = "yeartext";
     Image.className = "image";
+    moreBtn.className = "readmore";
 
     Year.textContent = "Year: " + Events.year + " " + Events.time;
     Event.textContent = "" + Events.events;
