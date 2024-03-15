@@ -1,6 +1,6 @@
 const events = [
   {"year":"2020","time":"A.D.","image":"","events":"1: The Black Lives Matter movement gains momentum following the killing of George Floyd, leading to widespread protests against racial injustice and police brutality. 2: The United Kingdom officially exits the European Union."},
-  {"year":"2019","time":"A.D.","image":"","events":"The COVID-19 pandemic emerges, causing a global health crisis with significant social, economic, and political impacts."},
+  {"year":"2019","time":"A.D.","image":"/images/covid.jpg","events":"The COVID-19 pandemic emerges, causing a global health crisis with significant social, economic, and political impacts."},
   {"year":"2016","time":"A.D.","image":"","events":"1: The United Kingdom votes to leave the European Union in the Brexit referendum. 2: Donald Trump is elected as the 45th President of the United States."},
   {"year":"2014","time":"A.D.","image":"","events":"The Islamic State of Iraq and Syria (ISIS) declares a caliphate, sparking a major international effort to combat the terrorist group."},
   {"year":"2013","time":"A.D.","image":"","events":"Pope Francis is elected as the head of the Roman Catholic Church, becoming the first pope from the Americas."},
