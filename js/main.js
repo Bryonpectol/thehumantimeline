@@ -268,7 +268,7 @@ events.forEach((Events) => {
 
 
 function readMore() {
-  alert("Here: " + events.Length);
+  alert("Here: " + events.length);
 }
 
 
