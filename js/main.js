@@ -1,5 +1,5 @@
 const events = [
-  {"year":"1503","time":"A.D.","image":"","events":"Leonardo da Vinci begins painting the Mona Lisa, which becomes one of the most famous works of art in history."},
+  {"year":"1503","time":"A.D.","image":"/images/mona-lisa.jpg","events":"Leonardo da Vinci begins painting the Mona Lisa, which becomes one of the most famous works of art in history."},
   {"year":"1498","time":"A.D.","image":"","events":"Vasco da Gama, a Portuguese explorer, reaches India by sea, establishing a direct trade route from Europe to Asia."},
   {"year":"1492","time":"A.D.","image":"","events":"1: Christopher Columbus, sponsored by Spain, makes his first voyage across the Atlantic and reaches the Americas, initiating European exploration and colonization of the New World. 2: The Spanish Crown, under King Ferdinand II of Aragon and Queen Isabella I of Castile, completes the Reconquista, the campaign to recapture Spain from the Moors."},
   {"year":"1455-1485","time":"A.D.","image":"","events":"The Wars of the Roses occur in England, a series of civil wars between the houses of York and Lancaster for control of the English throne."},
