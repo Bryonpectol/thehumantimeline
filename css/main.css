@@ -9,7 +9,7 @@
    .eventdiv {
       display: flex;
       flex-direction: column;
-      background-color: teal;
+      background-color: #400913;
       border-radius: 25px;
       box-shadow: 5px 5px 5px grey;
       margin: 3vh;
