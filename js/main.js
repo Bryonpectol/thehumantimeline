@@ -98,6 +98,7 @@ const events = [
   {"year":"1","time":"A.D.","image":"/images/1.jpg","events":"The year traditionally believed to be the birth of Jesus Christ."},
   {"year":"27","time":"B.C.","image":"","events":"The Roman Senate grants Octavian (Augustus) the title of Augustus, marking the beginning of the Roman Empire."},
   {"year":"44","time":"B.C.","image":"","events":"Julius Caesar is assassinated, leading to the rise of Augustus Caesar and the Roman Empire."},
+  {"year":"51","time":"B.C.","image":"","events":"Cleopatra becomes Pharaoh of Egypt, ruling jointly with her father, Ptolemy XII Auletes. After her father's death, she ruled alongside her younger brother, Ptolemy XIII, and later her other brother, Ptolemy XIV, and finally with her son, Ptolemy XV, until her death in 30 BC."},
   {"year":"146","time":"B.C.","image":"","events":"The Roman Republic destroys Carthage, ending the Third Punic War."},
   {"year":"221","time":"B.C.","image":"","events":"Qin Shi Huang becomes the first emperor of unified China, marking the start of the Qin Dynasty."},
   {"year":"323","time":"B.C.","image":"","events":"Alexander the Great dies, and his empire is divided among his generals, leading to the Hellenistic period."},
