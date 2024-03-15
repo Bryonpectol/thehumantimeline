@@ -211,7 +211,9 @@ events.forEach((Events) => {
 
     container.appendChild(eventDiv);
     //container.appendChild(Vert);
-    eventDiv.appendChild(Year);
+    if(Year != "") {
+      eventDiv.appendChild(Year);
+    }
     eventDiv.appendChild(Event);
     eventDiv.appendChild(Image);
 
