@@ -175,17 +175,21 @@ events.forEach((Events) => {
     let Event = document.createElement("p");
     let eventDiv = document.createElement("div");
     let Image = document.createElement("img");
+    let Vert = document.createElement("p");
 
     eventDiv.className = "eventdiv";
     Event.className = "eventtext";
     Year.className = "yeartext";
     Image.className = "image";
+    Vert.className = "verticle-line";
 
     Year.textContent = "Year: " + Events.year + " " + Events.time;
     Event.textContent = "" + Events.events;
     Image.setAttribute("src", Events.image);
+    Vert.textContent("|");
 
     container.appendChild(eventDiv);
+    container.appendChild(Vert);
     eventDiv.appendChild(Year);
     eventDiv.appendChild(Event);
     eventDiv.appendChild(Image);
