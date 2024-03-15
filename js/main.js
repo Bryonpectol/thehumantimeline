@@ -268,7 +268,7 @@ events.forEach((Events) => {
 
 
 function readMore() {
-  alert("Here: " + Events[123].events);
+  alert("Here: ";
 }
 
 
