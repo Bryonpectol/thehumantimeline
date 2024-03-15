@@ -188,6 +188,9 @@ let selectValue = Select.value;
 let selextText = Select.options[Select.selectedIndex].text;
 
 let moreNum;
+let count = 0;
+
+count += 1;
 
 if(selectValue == 1) {
 
@@ -273,7 +276,7 @@ events.forEach((Events) => {
 
 
 function readMore() {
-  alert("Here: " + moreNum);
+  alert("Here: " + events[2].id);
 }
 
 
