@@ -209,7 +209,7 @@ events.forEach((Events) => {
     Year.textContent = "Year: " + Events.year + " " + Events.time;
     Event.textContent = "" + Events.events;
     Image.setAttribute("src", Events.image);
-    moreBtn.textContent = "Read More";
+    moreBtn.innerHTML = "Read More";
   
     if(Events.events != "") {
     container.appendChild(eventDiv);
@@ -217,7 +217,7 @@ events.forEach((Events) => {
       eventDiv.appendChild(Year);
       eventDiv.appendChild(Event);
       if(Events.more != "") {
-      eventsDiv.appendChild(moreBtn);
+      Event.appendChild(moreBtn);
       }
       eventDiv.appendChild(Image);
     }
