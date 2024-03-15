@@ -223,7 +223,7 @@ events.forEach((Events) => {
       eventDiv.appendChild(Year);
       eventDiv.appendChild(Event);
       if(Events.more != "") {
-      moreNum = events[170][4]);
+      moreNum = events.more[4].events);
       Event.appendChild(moreBtn);
       }
       eventDiv.appendChild(Image);
