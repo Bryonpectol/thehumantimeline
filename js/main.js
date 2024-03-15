@@ -202,6 +202,7 @@ events.forEach((Events) => {
     let eventDiv = document.createElement("div");
     let Image = document.createElement("img");
     let moreBtn = document.createElement("button");
+    let testMore = "";
 
     eventDiv.className = "eventdiv";
     Event.className = "eventtext";
@@ -214,6 +215,7 @@ events.forEach((Events) => {
     Image.setAttribute("src", Events.image);
     moreBtn.innerHTML = "Read More";
     moreBtn.setAttribute("onclick", "readMore()");
+    testMore = "" + Events.more;
   
     if(Events.events != "") {
     container.appendChild(eventDiv);
@@ -221,7 +223,7 @@ events.forEach((Events) => {
       eventDiv.appendChild(Year);
       eventDiv.appendChild(Event);
       if(Events.more != "") {
-      moreNum = events.findIndex(events.more);
+      moreNum = events.indexOf(testMore);
       Event.appendChild(moreBtn);
       }
       eventDiv.appendChild(Image);
