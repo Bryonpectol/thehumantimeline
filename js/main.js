@@ -135,7 +135,7 @@ events.forEach((Events) => {
     let Event = document.createElement("p");
     let eventDiv = document.createElement("div");
     let Image = document.createElement("img");
-    let Vert = document.createElement("div");
+    let Vert = document.createElement("p");
 
     eventDiv.className = "eventdiv";
     Event.className = "eventtext";
@@ -146,6 +146,7 @@ events.forEach((Events) => {
     Year.textContent = "Year: " + Events.year + " " + Events.time;
     Event.textContent = "" + Events.events;
     Image.setAttribute("src", Events.image);
+    Vert.textContent("|");
 
     container.appendChild(eventDiv);
     eventDiv.appendChild(Year);
