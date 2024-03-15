@@ -211,6 +211,7 @@ events.forEach((Events) => {
     Event.textContent = "" + Events.events;
     Image.setAttribute("src", Events.image);
     moreBtn.innerHTML = "Read More";
+    moreBtn.setAttribute("onclick", "readMore()");
   
     if(Events.events != "") {
     container.appendChild(eventDiv);
@@ -264,6 +265,11 @@ events.forEach((Events) => {
 });
 
 };
+
+
+function readMore() {
+  alert("Here: " + Events[123].events);
+}
 
 
 
