@@ -60,7 +60,7 @@ const events = [
   {"year":"1543","time":"A.D.","image":"","events":""},
   {"year":"1533","time":"A.D.","image":"","events":""},
   {"year":"1519-1522","time":"A.D.","image":"","events":""},
-  {"year":"1517","time":"A.D.","image":"","events":""},
+  {"year":"1517","time":"A.D.","image":"","events":"Martin Luther's Ninety-Five Theses are posted on the door of the Castle Church in Wittenberg, Germany, marking the beginning of the Protestant Reformation."},
   {"year":"1503","time":"A.D.","image":"/images/mona-lisa.jpg","events":"Leonardo da Vinci begins painting the Mona Lisa, which becomes one of the most famous works of art in history."},
   {"year":"1498","time":"A.D.","image":"","events":"Vasco da Gama, a Portuguese explorer, reaches India by sea, establishing a direct trade route from Europe to Asia."},
   {"year":"1492","time":"A.D.","image":"","events":"1: Christopher Columbus, sponsored by Spain, makes his first voyage across the Atlantic and reaches the Americas, initiating European exploration and colonization of the New World. 2: The Spanish Crown, under King Ferdinand II of Aragon and Queen Isabella I of Castile, completes the Reconquista, the campaign to recapture Spain from the Moors."},
