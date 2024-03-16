@@ -52,10 +52,50 @@
 /* Desktop */
 @media only screen and (min-width: 601px) {
 
-    .eventdiv {
-        display: flex;
-        flex-direction: row;
-    }
+    body {
+      background-image: linear-gradient(white, black);
+   }
+   
+   .eventdiv {
+      display: flex;
+      flex-direction: column;
+      background-color: #400913;
+      border-radius: 25px;
+      box-shadow: 5px 5px 5px grey;
+      margin: 3vh;
+      color: white;
+      text-align: center;
+   }
+
+   .eventtext {
+      margin: 2vh;
+   }
+
+   .h1time {
+      text-align: center;
+   }
+
+   .image {
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+   }
+
+   #formdiv {
+      display: flex;
+      flex-direction: row;
+   }
+
+   .verticle-line1 {
+      width: 1px;
+      height: 400px;
+      background-color: #400913;
+   }
+
+   .readmore {
+      margin-top: 1vh;
+   }
+    
+}
 
 }
 
