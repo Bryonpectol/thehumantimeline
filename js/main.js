@@ -190,8 +190,6 @@ let selextText = Select.options[Select.selectedIndex].text;
 let moreNum;
 let count = 0;
 
-count += 1;
-
 if(selectValue == 1) {
 
 let container = document.getElementById("timelinemain");
@@ -199,6 +197,8 @@ let container = document.getElementById("timelinemain");
 
 
 events.forEach((Events) => {
+
+    count += 1;
 
     let Year = document.createElement("h3");
     let Event = document.createElement("p");
