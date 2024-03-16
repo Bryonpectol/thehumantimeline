@@ -219,6 +219,8 @@ events.forEach((Events) => {
     moreBtn.innerHTML = "Read More";
     moreBtn.setAttribute("onclick", "readMore()");
     testMore = "" + Events.more;
+
+    Events.id = "" + count - 1;
   
     if(Events.events != "") {
     container.appendChild(eventDiv);
@@ -276,7 +278,7 @@ events.forEach((Events) => {
 
 
 function readMore() {
-  alert("Here: " + events[2].id);
+  alert("Here: " + count);
 }
 
 
