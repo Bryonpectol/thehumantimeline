@@ -188,7 +188,7 @@ let selectValue = Select.value;
 let selextText = Select.options[Select.selectedIndex].text;
 
 let moreText;
-let moreBtn;
+
 
 if(selectValue == 1) {
 
@@ -197,6 +197,8 @@ let container = document.getElementById("timelinemain");
 
 
 events.forEach((Events) => {
+
+    let moreBtn;
 
     let Year = document.createElement("h3");
     let Event = document.createElement("p");
