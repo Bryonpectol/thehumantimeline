@@ -275,8 +275,9 @@ events.forEach((Events) => {
 };
 
 
-function readMore(Even) {
-  alert("Here: " + Even.id[5]);
+function readMore() {
+  let moneyNum = events.findIndex("45");
+  alert(moneyNum);
 }
 
 
