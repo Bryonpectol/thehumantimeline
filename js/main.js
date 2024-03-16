@@ -228,7 +228,7 @@ events.forEach((Events) => {
       eventDiv.appendChild(moreText);
      // eventDiv.appendChild(testMore);
       if(Events.more != "") {
-      Event.appendChild(moreBtn);
+      eventDiv.appendChild(moreBtn);
       }
       eventDiv.appendChild(Image);
     }
