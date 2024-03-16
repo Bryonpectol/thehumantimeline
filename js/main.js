@@ -122,7 +122,7 @@ const events = [
   {"id":"","year":"589","time":"A.D.","image":"","events":"The Sui Dynasty is established in China, reuniting the country after centuries of division.","more":""},
   {"id":"","year":"527","time":"A.D.","image":"","events":"Byzantine Emperor Justinian I comes to power, initiating a period of significant legal, cultural, and architectural reforms.","more":""},
   {"id":"","year":"500","time":"A.D.","image":"","events":"The Gupta Empire in India begins to decline.","more":""},
-  "id":"",{"year":"476","time":"A.D.","image":"","events":"The Western Roman Empire falls, marking the end of ancient Rome and the beginning of the Middle Ages.","more":""},
+  {"id":"","year":"476","time":"A.D.","image":"","events":"The Western Roman Empire falls, marking the end of ancient Rome and the beginning of the Middle Ages.","more":""},
   {"id":"","year":"337","time":"A.D.","image":"","events":"Emperor Constantine the Great dies, and the Roman Empire is divided among his sons, leading to the decline of the unified empire.","more":""},
   {"id":"","year":"325","time":"A.D.","image":"","events":"The First Council of Nicaea takes place, establishing the Nicene Creed and defining orthodox Christian doctrine.","more":""},
   {"id":"","year":"313","time":"A.D.","image":"","events":"Emperor Constantine the Great issues the Edict of Milan, granting religious toleration to Christianity in the Roman Empire.","more":""},
