@@ -62,6 +62,8 @@
       border-radius: 25px;
       box-shadow: 5px 5px 5px grey;
       margin: 3vh;
+      margin-right: 15vh;
+      margin-left: 15vh;
       color: white;
       text-align: center;
    }
