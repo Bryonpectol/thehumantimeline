@@ -218,6 +218,7 @@ events.forEach((Events) => {
     moreBtn.innerHTML = "Read More";
     moreBtn.setAttribute("onclick", "readMore()");
     moreText.textContent = "" + Events.more;
+    moreBtn.setAttribute("id", "moreBtn" + Events.id);
   
   
     if(Events.events != "") {
