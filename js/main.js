@@ -202,6 +202,7 @@ events.forEach((Events) => {
     let eventDiv = document.createElement("div");
     let Image = document.createElement("img");
     let moreBtn = document.createElement("button");
+    moreText = document.createElement("p");
 
     eventDiv.className = "eventdiv";
     Event.className = "eventtext";
@@ -223,6 +224,7 @@ events.forEach((Events) => {
     //container.appendChild(Vert);
       eventDiv.appendChild(Year);
       eventDiv.appendChild(Event);
+      eventDiv.appendChild(moreText);
      // eventDiv.appendChild(testMore);
       if(Events.more != "") {
       Event.appendChild(moreBtn);
