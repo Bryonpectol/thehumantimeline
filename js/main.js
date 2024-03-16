@@ -174,7 +174,7 @@ const events = [
   {"id":"173","year":"1792","time":"B.C.","image":"","events":"Hammurabi becomes the ruler of Babylon and later establishes the Code of Hammurabi, one of the earliest known legal codes.","more":""},
   {"id":"174","year":"2500","time":"B.C.","image":"","events":"The Great Pyramid of Giza is built in Egypt.","more":""},
   {"id":"175","year":"3100","time":"B.C.","image":"","events":"The first Egyptian dynasty is established by Narmer (Menes), uniting Upper and Lower Egypt.","more":""},
-  {"id":"176","year":"4000","time":"B.C.","image":"","events":"The Sumerian civilization emerges in Mesopotamia (modern-day Iraq).","more":""},
+  {"id":"176","year":"4000","time":"B.C.","image":"","events":"The Sumerian civilization emerges in Mesopotamia (modern-day Iraq).","more":"yes"},
   {"id":"177","year":"5000","time":"B.C.","image":"","events":"During the Neolithic period, a time characterized by the development of agriculture, animal domestication, and settled communities. While specific events from that time are not documented, archaeological evidence suggests significant advancements in human civilization, such as the transition from hunter-gatherer societies to agricultural societies in various parts of the world. This period marked the beginnings of human civilization as we know it today.","more":""},
   {"id":"178","year":"10,000","time":"B.C.","image":"/images/10000bc.jpg","events":"Humanity was still in the prehistoric era, known as the Stone Age.","more":"there is more here..."},
   ];
