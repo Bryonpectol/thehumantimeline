@@ -198,8 +198,6 @@ let container = document.getElementById("timelinemain");
 
 events.forEach((Events) => {
 
-    count += 1;
-
     let Year = document.createElement("h3");
     let Event = document.createElement("p");
     let eventDiv = document.createElement("div");
@@ -219,8 +217,6 @@ events.forEach((Events) => {
     moreBtn.innerHTML = "Read More";
     moreBtn.setAttribute("onclick", "readMore()");
     testMore = "" + Events.more;
-
-    Events.id = "" + count - 1;
   
   
     if(Events.events != "") {
@@ -278,8 +274,8 @@ events.forEach((Events) => {
 };
 
 
-function readMore() {
-  alert("Here: " + count);
+function readMore(Even) {
+  alert("Here: " + Even[5].id);
 }
 
 
