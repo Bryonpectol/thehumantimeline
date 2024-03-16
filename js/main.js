@@ -188,7 +188,7 @@ let selectValue = Select.value;
 let selextText = Select.options[Select.selectedIndex].text;
 
 let moreText;
-
+let moreBtn;
 
 if(selectValue == 1) {
 
@@ -197,8 +197,6 @@ let container = document.getElementById("timelinemain");
 
 
 events.forEach((Events) => {
-
-    let moreBtn;
 
     let Year = document.createElement("h3");
     let Event = document.createElement("p");
@@ -234,7 +232,19 @@ events.forEach((Events) => {
       }
       eventDiv.appendChild(Image);
     }
-    
+
+  
+function readMore() {
+  moreText.className = "maximized";
+  moreBtn.innerHTML = "Read Less";
+  moreBtn.setAttribute("onclick", "readLess()");
+}
+
+function readLess() {
+  moreText.className = "minimized";
+  moreBtn.innerHTML = "Read More";
+  moreBtn.setAttribute("onclick", "readMore()");
+}
 
 });
 
@@ -278,17 +288,6 @@ events.forEach((Events) => {
 };
 
 
-function readMore() {
-  moreText.className = "maximized";
-  moreBtn.innerHTML = "Read Less";
-  moreBtn.setAttribute("onclick", "readLess()");
-}
-
-function readLess() {
-  moreText.className = "minimized";
-  moreBtn.innerHTML = "Read More";
-  moreBtn.setAttribute("onclick", "readMore()");
-}
 
 
 
