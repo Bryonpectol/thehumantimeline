@@ -105,8 +105,16 @@
    .readmore {
       margin-top: 1vh;
    }
-    
-}
 
+   .minimized {
+      visibility: hidden;
+      width: 0px;
+      height: 0px;
+   }
+
+   .maximized {
+      
+   }
+    
 }
 
