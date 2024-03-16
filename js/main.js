@@ -188,6 +188,7 @@ let selectValue = Select.value;
 let selextText = Select.options[Select.selectedIndex].text;
 
 let moreText;
+let moreBtn;
 
 if(selectValue == 1) {
 
@@ -201,7 +202,7 @@ events.forEach((Events) => {
     let Event = document.createElement("p");
     let eventDiv = document.createElement("div");
     let Image = document.createElement("img");
-    let moreBtn = document.createElement("button");
+    moreBtn = document.createElement("button");
     moreText = document.createElement("p");
 
     eventDiv.className = "eventdiv";
@@ -277,6 +278,14 @@ events.forEach((Events) => {
 
 function readMore() {
   moreText.className = "maximized";
+  moreBtn.innerHTML = "Read Less";
+  moreBtn.setAttribute("onclick", "readLess()");
+}
+
+function readLess() {
+  moreText.className = "minimized";
+  moreBtn.innerHTML = "Read More";
+  moreBtn.setAttribute("onclick", "readMore()");
 }
 
 
