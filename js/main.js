@@ -275,7 +275,7 @@ events.forEach((Events) => {
 
 
 function readMore(Even) {
-  alert("Here: " + Even[5].id);
+  alert("Here: " + Even.id[5]);
 }
 
 
