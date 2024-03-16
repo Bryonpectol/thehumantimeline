@@ -233,7 +233,11 @@ events.forEach((Events) => {
       eventDiv.appendChild(Image);
     }
 
-  
+});
+
+};
+
+
 function readMore() {
   moreText.className = "maximized";
   moreBtn.innerHTML = "Read Less";
@@ -245,10 +249,6 @@ function readLess() {
   moreBtn.innerHTML = "Read More";
   moreBtn.setAttribute("onclick", "readMore()");
 }
-
-});
-
-};
 
 
 if(selectValue == 2) {
