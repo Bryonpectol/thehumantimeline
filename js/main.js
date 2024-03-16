@@ -187,8 +187,7 @@ let Select = document.getElementById("select");
 let selectValue = Select.value;
 let selextText = Select.options[Select.selectedIndex].text;
 
-let moreNum;
-let count = 0;
+let moreText;
 
 if(selectValue == 1) {
 
@@ -203,20 +202,20 @@ events.forEach((Events) => {
     let eventDiv = document.createElement("div");
     let Image = document.createElement("img");
     let moreBtn = document.createElement("button");
-    let testMore = document.createElement("p");
 
     eventDiv.className = "eventdiv";
     Event.className = "eventtext";
     Year.className = "yeartext";
     Image.className = "image";
     moreBtn.className = "readmore";
+    moreText.className = "minimized";
 
     Year.textContent = "Year: " + Events.year + " " + Events.time;
     Event.textContent = "" + Events.events;
     Image.setAttribute("src", Events.image);
     moreBtn.innerHTML = "Read More";
     moreBtn.setAttribute("onclick", "readMore()");
-    testMore = "" + Events.id;
+    moreText.textContent = "" + Events.more;
   
   
     if(Events.events != "") {
@@ -226,7 +225,6 @@ events.forEach((Events) => {
       eventDiv.appendChild(Event);
      // eventDiv.appendChild(testMore);
       if(Events.more != "") {
-      moreNum = "";
       Event.appendChild(moreBtn);
       }
       eventDiv.appendChild(Image);
@@ -276,8 +274,7 @@ events.forEach((Events) => {
 
 
 function readMore() {
-  let moneyNum = events.findIndex("45");
-  alert(moneyNum);
+  moreText.className = "maximized";
 }
 
 
