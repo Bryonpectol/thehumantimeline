@@ -207,11 +207,11 @@ function boolBackwards() {
 }
 
 if(Bool = "forwards") {
-  events.reverse();
-  events.reverse();
+  //events.reverse();
+  //events.reverse();
 }
 if(Bool = "backwards") {
-  events.reverse();
+  //events.reverse();
 }
 
 events.forEach((Events) => {
