@@ -21,6 +21,7 @@ const events = [
   {"id":"18","year":"1945","time":"A.D.","image":"","events":"The United Nations is founded with the goal of promoting international cooperation and preventing future conflicts.","more":""},
   {"id":"19","year":"1939-1945","time":"A.D.","image":"","events":"World War II takes place, involving numerous countries and resulting in the Holocaust, widespread devastation, and the use of atomic weapons.","more":""},
   {"id":"20","year":"1929","time":"A.D.","image":"","events":"The Wall Street Crash occurs, marking the beginning of the Great Depression, a severe worldwide economic downturn.","more":""},
+  {"id":"20","year":"1920","time":"A.D.","image":"","events":"The 19th Amendment was ratified, giving women the right to vote for the first time in the United States.","more":""},
   {"id":"21","year":"1918","time":"A.D.","image":"","events":"World War I ends with the signing of the Armistice, leading to significant political and territorial changes.","more":""},
   {"id":"22","year":"1917","time":"A.D.","image":"","events":"The Russian Revolution occurs, leading to the establishment of the Soviet Union.","more":""},
   {"id":"23","year":"1914-1918","time":"A.D.","image":"","events":"World War I takes place, involving many nations and resulting in significant casualties and territorial changes.","more":""},
