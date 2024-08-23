@@ -114,7 +114,7 @@ const events = [
   {"id":"109","year":"1014","time":"A.D.","image":"","events":"The Battle of Clontarf takes place in Ireland, resulting in a victory for Brian Boru and the defeat of Viking forces.","more":""},
   {"id":"110","year":"1000","time":"A.D.","image":"/images/leif.jpg","events":"1: The Hungarian king, Stephen I, is crowned as the first Christian king of Hungary. 2: Leif Erikson, a Norse explorer, reaches North America, possibly becoming the first European to do so. He establishes a settlement in Vinland (possibly modern-day Newfoundland, Canada).","more":""},
   {"id":"111","year":"987","time":"A.D.","image":"","events":"Hugh Capet is crowned as the King of France, establishing the Capetian Dynasty and the beginning of modern France.","more":""},
-  {"id":"112","year":"911","time":"A.D.1","image":"","events":"The Carolingian Empire officially ends with the death of Louis the Child, and the feudal system gains prominence in Europe.","more":""},
+  {"id":"112","year":"911","time":"A.D.","image":"","events":"The Carolingian Empire officially ends with the death of Louis the Child, and the feudal system gains prominence in Europe.","more":""},
   {"id":"113","year":"879","time":"A.D.","image":"","events":"Prince Oleg establishes the Kievan Rus' state in Eastern Europe, with Novgorod as its capital.","more":""},
   {"id":"114","year":"843","time":"A.D.","image":"","events":"The Treaty of Verdun is signed, dividing the Carolingian Empire into three parts, marking the beginning of the Carolingian fragmentation.","more":""},
   {"id":"115","year":"800","time":"A.D.","image":"","events":"Charlemagne is crowned as the Holy Roman Emperor by Pope Leo III, marking the revival of the Western Roman Empire.","more":""},
