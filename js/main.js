@@ -227,8 +227,6 @@ function boolForwards() {
   
     if(Events.events != "") {
     container.appendChild(eventDiv);
-    container.removeChild(eventDiv);
-    container.appendChild(eventDiv);
     //container.appendChild(Vert);
       eventDiv.appendChild(Year);
       eventDiv.appendChild(Event);
@@ -274,8 +272,6 @@ function boolBackwards() {
   
   
     if(Events.events != "") {
-    container.appendChild(eventDiv);
-    container.removeChild(eventDiv);
     container.appendChild(eventDiv);
     //container.appendChild(Vert);
       eventDiv.appendChild(Year);
