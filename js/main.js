@@ -195,7 +195,7 @@ let moreBtn;
 
 let container = document.getElementById("timelinemain");
 
-
+boolForwards();
 
 
 function boolForwards() {
