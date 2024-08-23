@@ -199,7 +199,7 @@ boolForwards();
 
 
 function boolForwards() {
-  container.removeChild(eventDiv);
+  
   events.forEach((Events) => {
 
     let Year = document.createElement("h3");
@@ -208,6 +208,8 @@ function boolForwards() {
     let Image = document.createElement("img");
     moreBtn = document.createElement("button");
     moreText = document.createElement("p");
+
+    container.removeChild(eventDiv);
 
     eventDiv.className = "eventdiv";
     Event.className = "eventtext";
@@ -242,7 +244,7 @@ function boolForwards() {
 }
 
 function boolBackwards() {
-  container.removeChild(eventDiv);
+  
   events.reverse();
   events.forEach((Events) => {
 
@@ -252,6 +254,8 @@ function boolBackwards() {
     let Image = document.createElement("img");
     moreBtn = document.createElement("button");
     moreText = document.createElement("p");
+
+    container.removeChild(eventDiv);
 
     eventDiv.className = "eventdiv";
     Event.className = "eventtext";
