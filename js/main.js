@@ -189,15 +189,9 @@ const events = [
 
 let searchInput = document.getElementById("search");
 let Form = document.getElementById("form");
-let Select = document.getElementById("select");
-
-let selectValue = Select.value;
-let selextText = Select.options[Select.selectedIndex].text;
 
 let moreText;
 let moreBtn;
-
-if(selectValue == 1) {
 
 let container = document.getElementById("timelinemain");
 
@@ -259,42 +253,7 @@ function readLess() {
   moreBtn.setAttribute("onclick", "readMore()");
 }
 
-
-if(selectValue == 2) {
-
-events.reversed();
-
-alert(events);
-
-let container = document.getElementById("timelinemain");
-
-
-
-events.forEach((Events) => {
-
-    let Year = document.createElement("h3");
-    let Event = document.createElement("p");
-    let eventDiv = document.createElement("div");
-    let Image = document.createElement("img");
-
-    eventDiv.className = "eventdiv";
-    Event.className = "eventtext";
-    Year.className = "yeartext";
-    Image.className = "image";
-
-    Year.textContent = "Year: " + Events.year + " " + Events.time;
-    Event.textContent = "" + Events.events;
-    Image.setAttribute("src", Events.image);
-
-    container.appendChild(eventDiv);
-   // container.appendChild(Vert);
-    eventDiv.appendChild(Year);
-    eventDiv.appendChild(Event);
-    eventDiv.appendChild(Image);
-
-});
-
-};
+//events.reversed();
 
 
 
