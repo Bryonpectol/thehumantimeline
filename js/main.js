@@ -1,4 +1,5 @@
 const events = [
+  {"id":"1","year":"2023","time":"A.D.","image":"","events":"Artificial Intelligence becomes 10 times more advanced with the new version of ChatGPT 3.","more":""},
   {"id":"0","year":"2020","time":"A.D.","image":"","events":"1: The Black Lives Matter movement gains momentum following the killing of George Floyd, leading to widespread protests against racial injustice and police brutality. 2: The United Kingdom officially exits the European Union.","more":""},
   {"id":"1","year":"2019","time":"A.D.","image":"/images/covid.jpg","events":"The COVID-19 pandemic emerges, causing a global health crisis with significant social, economic, and political impacts.","more":""},
   {"id":"2","year":"2016","time":"A.D.","image":"","events":"1: The United Kingdom votes to leave the European Union in the Brexit referendum. 2: Donald Trump is elected as the 45th President of the United States.","more":""},
