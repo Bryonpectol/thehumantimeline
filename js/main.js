@@ -199,6 +199,7 @@ boolForwards();
 
 
 function boolForwards() {
+  container.removeChild(eventDiv);
   events.forEach((Events) => {
 
     let Year = document.createElement("h3");
@@ -241,6 +242,7 @@ function boolForwards() {
 }
 
 function boolBackwards() {
+  container.removeChild(eventDiv);
   events.reverse();
   events.forEach((Events) => {
 
