@@ -237,8 +237,6 @@ events.forEach((Events) => {
 
 });
 
-};
-
 
 function readMore() {
   moreText.className = "maximized";
