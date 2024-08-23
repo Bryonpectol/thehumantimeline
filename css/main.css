@@ -56,10 +56,13 @@
 
    .totop {
       position: fixed;
-      float: bottom;
-      float: right;
       padding: 3vh;
       margin: 3vh;
+      z-index: 1;
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      font-size; 1.3em;
    }
     
 }
