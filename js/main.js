@@ -199,14 +199,7 @@ let container = document.getElementById("timelinemain");
 
 
 function boolForwards() {
-  
-}
-
-function boolBackwards() {
-  events.reverse();
-}
-
-events.forEach((Events) => {
+  events.forEach((Events) => {
 
     let Year = document.createElement("h3");
     let Event = document.createElement("p");
@@ -245,6 +238,89 @@ events.forEach((Events) => {
     }
 
 });
+}
+
+function boolBackwards() {
+  events.reverse();
+  events.forEach((Events) => {
+
+    let Year = document.createElement("h3");
+    let Event = document.createElement("p");
+    let eventDiv = document.createElement("div");
+    let Image = document.createElement("img");
+    moreBtn = document.createElement("button");
+    moreText = document.createElement("p");
+
+    eventDiv.className = "eventdiv";
+    Event.className = "eventtext";
+    Year.className = "yeartext";
+    Image.className = "image";
+    moreBtn.className = "readmore";
+    moreText.className = "minimized";
+
+    Year.textContent = "Year: " + Events.year + " " + Events.time;
+    Event.textContent = "" + Events.events;
+    Image.setAttribute("src", Events.image);
+    moreBtn.innerHTML = "Read More";
+    moreBtn.setAttribute("onclick", "readMore()");
+    moreText.textContent = "" + Events.more;
+    moreBtn.setAttribute("id", "moreBtn" + Events.id);
+  
+  
+    if(Events.events != "") {
+    container.appendChild(eventDiv);
+    //container.appendChild(Vert);
+      eventDiv.appendChild(Year);
+      eventDiv.appendChild(Event);
+      eventDiv.appendChild(moreText);
+     // eventDiv.appendChild(testMore);
+      if(Events.more != "") {
+     // eventDiv.appendChild(moreBtn);
+      }
+      eventDiv.appendChild(Image);
+    }
+
+});
+}
+
+//events.forEach((Events) => {
+
+ //   let Year = document.createElement("h3");
+//    let Event = document.createElement("p");
+//    let eventDiv = document.createElement("div");
+ //   let Image = document.createElement("img");
+ //   moreBtn = document.createElement("button");
+ //   moreText = document.createElement("p");
+//
+ //   eventDiv.className = "eventdiv";
+  //  Event.className = "eventtext";
+  //  Year.className = "yeartext";
+ //   Image.className = "image";
+//    moreBtn.className = "readmore";
+//    moreText.className = "minimized";
+//
+ //   Year.textContent = "Year: " + Events.year + " " + Events.time;
+//    Event.textContent = "" + Events.events;
+ //   Image.setAttribute("src", Events.image);    moreBtn.innerHTML = "Read More";
+//    moreBtn.setAttribute("onclick", "readMore()");
+//    moreText.textContent = "" + Events.more;
+//    moreBtn.setAttribute("id", "moreBtn" + Events.id);
+//  
+ // 
+//    if(Events.events != "") {
+//    container.appendChild(eventDiv);
+    //container.appendChild(Vert);
+  //    eventDiv.appendChild(Year);
+//      eventDiv.appendChild(Event);
+//      eventDiv.appendChild(moreText);
+     // eventDiv.appendChild(testMore);
+   //   if(Events.more != "") {
+     // eventDiv.appendChild(moreBtn);
+//}
+  //    eventDiv.appendChild(Image);
+ //   }
+
+//});
 
 
 function readMore() {
