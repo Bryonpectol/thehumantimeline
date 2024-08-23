@@ -195,23 +195,15 @@ let moreBtn;
 
 let container = document.getElementById("timelinemain");
 
-let Bool = "forwards";
+
 
 
 function boolForwards() {
-  Bool = "forwards";
+  
 }
 
 function boolBackwards() {
-  Bool = "backwards";
-}
-
-if(Bool = "forwards") {
-  //events.reverse();
-  //events.reverse();
-}
-if(Bool = "backwards") {
-  //events.reverse();
+  events.reverse();
 }
 
 events.forEach((Events) => {
