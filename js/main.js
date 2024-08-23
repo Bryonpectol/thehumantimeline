@@ -207,7 +207,7 @@ function boolBackwards() {
 }
 
 if(Bool = "backwards") {
-  events.reversed();
+  events.reverse();
 }
 
 events.forEach((Events) => {
