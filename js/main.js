@@ -209,8 +209,6 @@ function boolForwards() {
     moreBtn = document.createElement("button");
     moreText = document.createElement("p");
 
-    container.removeChild(eventDiv);
-
     eventDiv.className = "eventdiv";
     Event.className = "eventtext";
     Year.className = "yeartext";
