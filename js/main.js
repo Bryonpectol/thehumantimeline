@@ -206,11 +206,11 @@ function boolBackwards() {
   Bool = "backwards";
 }
 
-if(Bool = "backwards") {
-  events.reverse();
-}
 if(Bool = "forwards") {
   events.reverse();
+  events.reverse();
+}
+if(Bool = "backwards") {
   events.reverse();
 }
 
