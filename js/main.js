@@ -1,5 +1,6 @@
 const events = [
   {"id":"1","year":"2025","time":"A.D.","image":"","events":"Donald Trump is elected again as the President of the United States, becoming the 47th President.","more":""},
+  {"id":"1","year":"2024","time":"A.D.","image":"/images/trumpassassination.jpg","events":"Donald Trump is hit in the ear with a bullet from an assassination attempt during a campaign rally.","more":""},
   {"id":"1","year":"2023","time":"A.D.","image":"","events":"Artificial Intelligence becomes 10 times more advanced with the new version of ChatGPT 3.","more":""},
   {"id":"1","year":"2022","time":"A.D.","image":"","events":"The world population hits 8 billion.","more":""},
   {"id":"0","year":"2020","time":"A.D.","image":"","events":"1. The Black Lives Matter movement gains momentum following the killing of George Floyd, leading to widespread protests against racial injustice and police brutality.\n\n2. The United Kingdom officially exits the European Union.","more":""},
