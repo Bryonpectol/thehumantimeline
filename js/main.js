@@ -16,6 +16,8 @@ const events = [
   {"id":"10","year":"2001","time":"A.D.","image":"/images/911.jpg","events":"September 11 attacks take place in the United States, resulting in the destruction of the World Trade Center towers and leading to global efforts to combat terrorism.","more":""},
   {"id":"11","year":"1991","time":"A.D.","image":"","events":"The Soviet Union dissolves, leading to the emergence of independent countries in its place.","more":""},
   {"id":"12","year":"1989","time":"A.D.","image":"","events":"The fall of the Berlin Wall marks the beginning of the reunification of East and West Germany.","more":""},
+  {"id":"12","year":"1986","time":"A.D.","image":"","events":"The Number Four RBMK reactor at the nuclear power plant at Chernobyl, Ukraine, went out of control during a test at low-power, leading to an explosion and fire that demolished the reactor building and released large amounts of radiation into the atmosphere.","more":""},
+  {"id":"12","year":"1977","time":"A.D.","image":"","events":"Star Wars, one of the defining motion pictures in cinema history, was released in theaters.","more":""},
   {"id":"13","year":"1969","time":"A.D.","image":"","events":"The United States successfully lands astronauts on the moon during the Apollo 11 mission.","more":""},
   {"id":"1","year":"1963","time":"A.D.","image":"","events":"President John F. Kennedy is assassinated while riding in a motorcade through Dallas, Texas.","more":""},
   {"id":"14","year":"1961","time":"A.D.","image":"","events":"The Berlin Wall is constructed, dividing East and West Berlin, symbolizing the division between Eastern and Western blocs during the Cold War.","more":""},
