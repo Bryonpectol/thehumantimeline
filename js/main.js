@@ -17,6 +17,7 @@ const events = [
   {"id":"11","year":"1991","time":"A.D.","image":"","events":"The Soviet Union dissolves, leading to the emergence of independent countries in its place.","more":""},
   {"id":"12","year":"1989","time":"A.D.","image":"","events":"The fall of the Berlin Wall marks the beginning of the reunification of East and West Germany.","more":""},
   {"id":"13","year":"1969","time":"A.D.","image":"","events":"The United States successfully lands astronauts on the moon during the Apollo 11 mission.","more":""},
+  {"id":"1","year":"1963","time":"A.D.","image":"","events":"President John F. Kennedy is assassinated while riding in a motorcade through Dallas, Texas.","more":""},
   {"id":"14","year":"1961","time":"A.D.","image":"","events":"The Berlin Wall is constructed, dividing East and West Berlin, symbolizing the division between Eastern and Western blocs during the Cold War.","more":""},
   {"id":"15","year":"1950","time":"A.D.","image":"","events":"The Korean War starts. Between North Korea, supported by China and the Soviet Union, and South Korea, supported by a United Nations coalition led by the United States.","more":""},
   {"id":"16","year":"1947","time":"A.D.","image":"","events":"India and Pakistan gain independence from British colonial rule.","more":""},
