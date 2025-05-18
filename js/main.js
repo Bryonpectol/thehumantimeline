@@ -263,7 +263,7 @@ function boolBackwards() {
     moreText.className = "minimized";
 
     Year.textContent = "Year: " + Events.year + " " + Events.time;
-    Event.textContent = "" + Events.events;
+    Event.innerHTML = "" + Events.events;
     Image.setAttribute("src", Events.image);
     moreBtn.innerHTML = "Read More";
     moreBtn.setAttribute("onclick", "readMore()");
