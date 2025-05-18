@@ -19,7 +19,7 @@ const events = [
   {"id":"15","year":"1950","time":"A.D.","image":"","events":"The Korean War starts. Between North Korea, supported by China and the Soviet Union, and South Korea, supported by a United Nations coalition led by the United States.","more":""},
   {"id":"16","year":"1947","time":"A.D.","image":"","events":"India and Pakistan gain independence from British colonial rule.","more":""},
   {"id":"17","year":"1947","time":"A.D.","image":"","events":"The Cold War begins, a period of political tension and ideological rivalry between the United States and the Soviet Union.","more":""},
-  {"id":"18","year":"1945","time":"A.D.","image":"","events":"The United Nations is founded with the goal of promoting international cooperation and preventing future conflicts.","more":""},
+  {"id":"18","year":"1945","time":"A.D.","image":"","events":"The United States of America drops two atomic bombs on Hiroshima and Nagasaki, Japan.\nThe United Nations is founded with the goal of promoting international cooperation and preventing future conflicts.","more":""},
   {"id":"19","year":"1939","time":"A.D.","image":"","events":"World War II begins. Involving numerous countries and resulting in the Holocaust, widespread devastation, and the use of atomic weapons.","more":""},
   {"id":"20","year":"1929","time":"A.D.","image":"","events":"The Wall Street Crash occurs, marking the beginning of the Great Depression, a severe worldwide economic downturn.","more":""},
   {"id":"20","year":"1920","time":"A.D.","image":"","events":"The 19th Amendment was ratified, giving women the right to vote for the first time in the United States.","more":""},
