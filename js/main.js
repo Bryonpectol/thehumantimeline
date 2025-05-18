@@ -11,7 +11,7 @@ const events = [
   {"id":"5","year":"2011","time":"A.D.","image":"/images/osama.jpg","events":"1. Osama bin Laden, the founder and leader of al-Qaeda, is killed by United States forces in Pakistan.\n\n2. The Syrian Civil War begins, leading to a complex and ongoing conflict with significant humanitarian consequences.","more":""},
   {"id":"6","year":"2010","time":"A.D.","image":"","events":"The Arab Spring movement begins, with widespread protests and uprisings taking place across the Middle East and North Africa.","more":""},
   {"id":"7","year":"2008","time":"A.D.","image":"","events":"The global financial crisis begins with the collapse of Lehman Brothers, leading to a worldwide economic downturn.","more":""},
-  {"id":"8","year":"2004","time":"A.D.","image":"","events":"The Indian Ocean earthquake and tsunami occur, resulting in the deaths of hundreds of thousands of people in multiple countries.","more":""},
+  {"id":"8","year":"2004","time":"A.D.","image":"/images/2004tsunami.jpg","events":"The Indian Ocean earthquake and tsunami occur, resulting in the deaths of hundreds of thousands of people in multiple countries.","more":""},
   {"id":"9","year":"2003","time":"A.D.","image":"","events":"The United States and its allies invade Iraq, leading to the overthrow of Saddam Hussein's regime.","more":""},
   {"id":"10","year":"2001","time":"A.D.","image":"/images/911.jpg","events":"September 11 attacks take place in the United States, resulting in the destruction of the World Trade Center towers and leading to global efforts to combat terrorism.","more":""},
   {"id":"11","year":"1991","time":"A.D.","image":"","events":"The Soviet Union dissolves, leading to the emergence of independent countries in its place.","more":""},
